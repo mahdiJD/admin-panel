@@ -1,0 +1,61 @@
+header{
+    background-color: #0cbd50;
+    color: #fff;
+    width: auto;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+.meno{
+    background-color: rgb(106, 103, 103);
+    color: black;
+    width: 20%;
+    float: left;
+    border-radius: 15px;
+    margin: 15px;
+    position: fixed;
+}
+
+body .meno{
+    height: 95%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.work-spase{
+    background-color: #f4f4f4;
+    color: black;
+    width: auto;
+    border-radius: 15px;
+    padding: 35px;
+    margin-right : 3px;
+
+}
+
+.content{
+    float: right;
+    width: 76%;
+    margin: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    height: 200px;
+    background-color: #f4f4f4;
+    margin-right: 20px; /* فاصله 3 پیکسلی بین باکس‌ها */
+}
+.content .box{
+    width: 25%;
+
+}
+.box:last-child {
+    margin-right: 0; /* حذف فاصله برای آخرین باکس */
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        margin-right: 3px; /* فاصله 3 پیکسلی بین باکس‌ها */
+    }
+    .box:last-child {
+        margin-right: 0; /* حذف فاصله برای آخرین باکس */
+    }
+</style>
+<title>Equal Spacing Example</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
